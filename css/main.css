@@ -13,6 +13,7 @@ body {
   text-align: center;
   margin: 0;
   width: 100%;
+  padding: .5em 1em;
 }
 
 img {
@@ -23,10 +24,16 @@ img {
   padding: 2em 1em .2em;
 }
 
+p {
+  display: inline-block;
+  max-width: 25em;
+  width: 100%;
+  margin: 0 0 1.5em;
+}
+
 div {
   max-width: 25em;
-  padding: 0 2em;
-  line-height: 1.5;
+  text-align: left;
   color: #333;
   vertical-align: middle;
 }
@@ -39,6 +46,8 @@ section {
 .btn {
   text-align: left;
   display: inline-block;
+  margin-bottom: 1em;
+  max-width: 25em;
 }
 
 a {
@@ -50,12 +59,12 @@ a {
   padding: .4em .75em .5em;
   background-color: #eee9de;
   color: #333;
-  border-color: #666;
   border-radius: 5px;
-  border: 2px solid #666;
+  border: 2px solid #333;
 }
 
 a:hover {
   background-color: #666;
   color: #eee9de;
+  border: 3px solid #666;
 }
