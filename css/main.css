@@ -2,7 +2,6 @@ html {
   box-sizing: border-box;
   font-family: Lato, sans-serif;
   line-height: 1.5;
-  background-color: #eee9de;
 }
 
 *, *::before, *::after {
@@ -13,12 +12,11 @@ body {
   text-align: center;
   margin: 0;
   width: 100%;
-  padding: .5em 1em;
+  background-color: #eee9de;
 }
 
 img {
   display: block;
-  max-width: 30em;
   width: 100%;
   margin-top: .75em;
   padding: 2em 1em .2em;
@@ -32,15 +30,14 @@ p {
 }
 
 div {
+  display: inline-block;
   max-width: 25em;
   text-align: left;
   color: #333;
   vertical-align: middle;
-  margin: 0 3em;
 }
 
 section {
-  text-align: center;
   padding-bottom: 2em;
 }
 
@@ -68,4 +65,8 @@ a:hover {
   background-color: #666;
   color: #eee9de;
   border: 3px solid #666;
+}
+
+.pyramid {
+  padding: .5em 1em;
 }
