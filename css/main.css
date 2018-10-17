@@ -11,7 +11,7 @@ html {
 
 img {
   display: block;
-  max-width: 20em;
+  max-width: 30em;
   width: 100%;
 }
 
@@ -30,13 +30,6 @@ body {
 section {
   text-align: center;
   padding: 2em 0;
-}
-
-.pyramid {
-  text-align: center;
-  vertical-align: middle;
-  max-width: 25em;
-  padding: 1em;
 }
 
 .btn {
